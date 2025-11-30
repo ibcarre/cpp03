@@ -22,3 +22,6 @@ class Claptrap {
 };
 
 #endif
+
+//rajouter canonical form pour ttes les class
+//check 42evals

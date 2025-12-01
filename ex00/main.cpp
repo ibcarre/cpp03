@@ -1,7 +1,7 @@
 #include "Claptrap.hpp"
 
 int	main(){
-	Claptrap n("clap");
+	ClapTrap n("clap");
 
 	n.attack("elon musk");
 	n.beRepaired(20);

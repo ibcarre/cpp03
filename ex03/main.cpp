@@ -1,17 +1,20 @@
 #include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
-
-//prevent assigning to self
+#include "FragTrap.hpp"
 
 int	main(){
-	ClapTrap n("clap");
-	ScavTrap o("Okay eh eh");
-	ScavTrap s;
-
+	// ClapTrap n("clap");
+	// ScavTrap o("Okay eh eh");
+	// FragTrap p("FragTrap");
+ //
 	// n.attack("elon musk");
 	// n.beRepaired(20);
+	// std::cout << "\n";
+	// std::cout << "\n";
 	// n.takeDamage(5);
 	// n.beRepaired(1);
+	// std::cout << "\n";
+	// std::cout << "\n";
 	// o.beRepaired(1);
 	// o.beRepaired(1);
 	// o.beRepaired(1);
@@ -24,8 +27,11 @@ int	main(){
 	// o.takeDamage(38);
 	// o.takeDamage(38);
 	// o.guardGate();
-	o.set_health(10);
-	std::cout << "Health " << s.getName() << " NB " << s.get_health() << "\n";
-	s = o;
-	std::cout << "Health " << s.getName() << " NB " << s.get_health() << "\n";
+	// std::cout << "\n";
+	// std::cout << "\n";
+	// p.attack("ouais");
+	// p.takeDamage(10);
+	// p.takeDamage(100);
+	// p.beRepaired(50);
+	// p.highFivesGuys();
 }

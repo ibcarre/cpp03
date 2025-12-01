@@ -1,9 +1,9 @@
-#include "Claptrap.hpp"
+#include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
 #include "FragTrap.hpp"
 
 int	main(){
-	Claptrap n("clap");
+	ClapTrap n("clap");
 	ScavTrap o("Okay eh eh");
 	FragTrap p("FragTrap");
 

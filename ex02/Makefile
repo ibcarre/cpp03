@@ -5,7 +5,7 @@ NAME = fragTrap
 FLAGS += -Wall -Wextra -Werror -std=c++98 -g
 
 SRC = main.cpp \
-	Claptrap.cpp \
+	ClapTrap.cpp \
 	ScavTrap.cpp \
 	FragTrap.cpp \
 

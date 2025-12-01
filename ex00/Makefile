@@ -5,7 +5,7 @@ NAME = claptrap
 FLAGS += -Wall -Wextra -Werror -std=c++98 -g
 
 SRC = main.cpp \
-	Claptrap.cpp \
+	ClapTrap.cpp \
 
 OBJ = $(SRC:.cpp=.o)
 
